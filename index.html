@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Risk Group | Risk Management Experts</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        prgblue: '#003366',
+                        prggold: '#D4AF37',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased text-gray-900">
+    <!-- Navigation Component -->
+    <custom-navigation></custom-navigation>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-prgblue/90 to-prgblue/70 z-0"></div>
+        <video autoplay muted loop class="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover">
+            <source src="https://static.videezy.com/system/resources/previews/000/042/595/original/city_skyline.mp4" type="video/mp4">
+        </video>
+        <div class="relative z-10 px-6 text-center max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 fade-in">Redefining <span class="text-prggold">Risk Management</span></h1>
+            <p class="text-xl md:text-2xl text-white opacity-90 mb-10 fade-in delay-100">27+ years of protecting businesses with innovative solutions that anticipate tomorrow's challenges today.</p>
+            <a href="#contact" class="inline-block bg-prggold hover:bg-yellow-600 text-prgblue font-semibold px-8 py-4 rounded-full transition-all transform hover:scale-105 fade-in delay-200">Get Protected</a>
+        </div>
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#about" class="text-white">
+                <i data-feather="chevron-down" class="w-8 h-8"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-12 fade-in">
+                    <h2 class="text-4xl font-bold text-prgblue mb-6">About Premier Risk Group</h2>
+                    <p class="text-lg text-gray-700 mb-6">Founded in 1996, we've grown from a small consultancy to an industry leader, serving Fortune 500 companies worldwide with comprehensive risk management solutions.</p>
+                    <div class="flex items-center mb-6">
+                        <div class="text-5xl font-bold text-prggold mr-4 counter" data-target="27">0</div>
+                        <div class="text-lg text-gray-700">Years of<br>Experience</div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-6 rounded-xl">
+                            <i data-feather="shield" class="w-8 h-8 text-prggold mb-3"></i>
+                            <h3 class="font-semibold text-prgblue mb-2">Integrity</h3>
+                            <p class="text-sm text-gray-600">Uncompromising ethical standards</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-xl">
+                            <i data-feather="eye" class="w-8 h-8 text-prggold mb-3"></i>
+                            <h3 class="font-semibold text-prgblue mb-2">Vision</h3>
+                            <p class="text-sm text-gray-600">Anticipating emerging risks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 fade-in delay-100">
+                    <div class="relative">
+                        <img src="http://static.photos/office/1024x576/10" alt="Premier Risk Group Office" class="w-full rounded-xl shadow-xl">
+                        <div class="absolute -bottom-6 -right-6 bg-prggold p-6 rounded-xl shadow-lg hidden lg:block">
+                            <h3 class="text-prgblue font-bold text-xl mb-2">Our Mission</h3>
+                            <p class="text-prgblue">To transform risk into opportunity through innovative strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-prgblue mb-4">Our Services</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Comprehensive solutions tailored to your unique risk profile.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 fade-in">
+                    <img src="http://static.photos/finance/640x360/1" alt="Risk Assessment" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-prggold rounded-full p-3 mr-4">
+                                <i data-feather="activity" class="w-6 h-6 text-prgblue"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-prgblue">Risk Assessment</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Comprehensive evaluation of potential threats to your business operations and assets.</p>
+                        <a href="#" class="text-prggold font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 fade-in delay-100">
+                    <img src="http://static.photos/technology/640x360/2" alt="Cybersecurity" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-prggold rounded-full p-3 mr-4">
+                                <i data-feather="lock" class="w-6 h-6 text-prgblue"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-prgblue">Cybersecurity</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Protecting your digital assets from evolving cyber threats with cutting-edge solutions.</p>
+                        <a href="#" class="text-prggold font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 fade-in delay-200">
+                    <img src="http://static.photos/legal/640x360/3" alt="Compliance" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-prggold rounded-full p-3 mr-4">
+                                <i data-feather="check-circle" class="w-6 h-6 text-prgblue"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-prgblue">Regulatory Compliance</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Ensuring your business meets all industry regulations and legal requirements.</p>
+                        <a href="#" class="text-prggold font-medium inline-flex items-center">Learn more <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-prgblue text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold mb-4">Meet Our Leadership</h2>
+                <p class="text-xl opacity-90 max-w-2xl mx-auto">Seasoned professionals with decades of combined experience.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Team Member 1 -->
+                <div class="text-center fade-in">
+                    <div class="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-prggold hover:scale-105 transition-transform duration-300">
+                        <img src="http://static.photos/people/400x400/1" alt="John Smith" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">John Smith</h3>
+                    <p class="text-prggold mb-2">CEO & Founder</p>
+                    <p class="text-sm opacity-80">27 years experience in risk management</p>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="text-center fade-in delay-100">
+                    <div class="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-prggold hover:scale-105 transition-transform duration-300">
+                        <img src="http://static.photos/people/400x400/2" alt="Sarah Johnson" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">Sarah Johnson</h3>
+                    <p class="text-prggold mb-2">Chief Risk Officer</p>
+                    <p class="text-sm opacity-80">Former Fortune 500 risk director</p>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="text-center fade-in delay-200">
+                    <div class="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-prggold hover:scale-105 transition-transform duration-300">
+                        <img src="http://static.photos/people/400x400/3" alt="Michael Chen" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">Michael Chen</h3>
+                    <p class="text-prggold mb-2">Cybersecurity Director</p>
+                    <p class="text-sm opacity-80">Expert in digital threat mitigation</p>
+                </div>
+                
+                <!-- Team Member 4 -->
+                <div class="text-center fade-in delay-300">
+                    <div class="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-prggold hover:scale-105 transition-transform duration-300">
+                        <img src="http://static.photos/people/400x400/4" alt="Emily Rodriguez" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">Emily Rodriguez</h3>
+                    <p class="text-prggold mb-2">Compliance Director</p>
+                    <p class="text-sm opacity-80">Regulatory framework specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-12 fade-in">
+                    <h2 class="text-4xl font-bold text-prgblue mb-6">Get In Touch</h2>
+                    <p class="text-lg text-gray-700 mb-8">Ready to secure your business? Contact our team for a comprehensive risk assessment.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-prggold rounded-full p-3 mr-4">
+                                <i data-feather="mail" class="w-6 h-6 text-prgblue"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-prgblue mb-1">Email Us</h3>
+                                <a href="mailto:info@premierriskgroup.com" class="text-gray-600 hover:text-prggold transition-colors">info@premierriskgroup.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-prggold rounded-full p-3 mr-4">
+                                <i data-feather="phone" class="w-6 h-6 text-prgblue"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-prgblue mb-1">Call Us</h3>
+                                <a href="tel:+18005551234" class="text-gray-600 hover:text-prggold transition-colors">+1 (800) 555-1234</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-prggold rounded-full p-3 mr-4">
+                                <i data-feather="map-pin" class="w-6 h-6 text-prgblue"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-prgblue mb-1">Visit Us</h3>
+                                <p class="text-gray-600">123 Corporate Blvd, Suite 500<br>New York, NY 10001</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 fade-in delay-100">
+                    <form class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <div class="mb-6">
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-prggold focus:border-transparent transition-all" placeholder="John Doe">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-prggold focus:border-transparent transition-all" placeholder="john@company.com">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="company" class="block text-sm font-medium text-gray-700 mb-1">Company</label>
+                            <input type="text" id="company" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-prggold focus:border-transparent transition-all" placeholder="Company Inc.">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="service" class="block text-sm font-medium text-gray-700 mb-1">Service Interest</label>
+                            <select id="service" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-prggold focus:border-transparent transition-all">
+                                <option value="">Select a service</option>
+                                <option value="risk-assessment">Risk Assessment</option>
+                                <option value="cybersecurity">Cybersecurity</option>
+                                <option value="compliance">Regulatory Compliance</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-prggold focus:border-transparent transition-all" placeholder="Tell us about your risk management needs..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-prggold hover:bg-yellow-600 text-prgblue font-semibold px-6 py-3 rounded-lg transition-all transform hover:scale-105">
+                            Request Consultation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Component -->
+    <custom-footer></custom-footer>
+
+    <!-- Sticky CTA -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="#contact" class="bg-prggold hover:bg-yellow-600 text-prgblue font-semibold px-6 py-3 rounded-full shadow-lg flex items-center transition-all transform hover:scale-105">
+            <i data-feather="message-circle" class="w-5 h-5 mr-2"></i> Contact Us
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="components/navigation.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
